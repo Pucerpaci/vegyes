@@ -111,4 +111,4 @@ Kinek a műve a Búsuló juhász szobra?;Izsó Miklós;Fessler Leó;Gerenday Ant
 Ki írta: "Szekszárdon születtem, színésznőt szerettem"?;Babits Mihály;Kosztolányi Dezső;Ady Endre;Szabó Lőrinc
 Kit nevezünk menyecskének?;fiatalasszonyt, aki még nem szült gyereket;fiatal lányt, aki még nem ment férjhez;fiatalasszonyt, akinek még nem született fia;fiatal lányt, akinek udvarlója van
 Melyik labdarúgóbírónk vezetett mérkőzést a 2010-es Világ-, és a 2012-es Európa-bajnokságon?;Kassai Viktor;Puhl Sándor;Bede Ferenc;Szabó Zsolt
-Melyik NEM a világörökség része?;budapesti Városliget;budai várnegyed;budapesti Duna-part;budapesti Andrássy út;
+Melyik NEM a világörökség része?;budapesti Városliget;budai várnegyed;budapesti Duna-part;budapesti Andrássy út
