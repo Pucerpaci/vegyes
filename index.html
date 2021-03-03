@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Magyarország kvíz</title>
+  </head>
+  <body>
+    <!-- <button class="show-modal">Játékleírás</button>
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>Játékleírás</h1>
+      <p class="modalleír">
+        A játék akkor ér véget, ha eléred a 10 pontot. A kezdő szint esetében
+        minden jó válasz 1 pontot ér, a rossz válaszok esetében nem történik
+        pontlevonás. A haladó szint esetében minden jó válasz 1 pontot ér,
+        azonban rossz válasz esetén büntetésként 1 pontot levonunk!
+      </p>
+    </div> -->
+    <form method="get" action="/index.html">
+        <button type="submit" class="btn-visszafő">Főoldal</button>
+      </form>
+    <!-- <div class="overlay hidden"></div> -->
+    <div>
+      <h1 class="téma">Magyarország kvíz - Vegyes</h1>
+      <button class="btn-kezdés">Játék kezdése</button>
+    </div>
+
+    <div class="kezdőkép">
+      <img src="háttér.jpg" alt="" />
+    </div>
+    <div class="kérdés hidden">
+        <h2 class="kérdésszöveg">Kérdés</h2>
+      </div>
+      <div class="válaszok hidden">
+        <br />
+  <div class="válaszcont">
+    <input id="válasz1" type="checkbox" />
+    <label class="válasz1label válaszlabelök">válasz1</label>
+    <span class="checkmark"></span>
+    <br />
+  </div>
+  
+  <div class="válaszcont">
+    <input id="válasz2" type="checkbox" />
+        <label class="válasz2label válaszlabelök">válasz2</label>
+        <span class="checkmark"></span>
+        <br />
+  </div>
+  
+  <div class="válaszcont">
+    <input id="válasz3" type="checkbox" />
+        <label class="válasz3label válaszlabelök">válasz3</label>
+        <span class="checkmark"></span>
+        <br />
+  </div>
+  
+  <div class="válaszcont">
+    <input id="válasz4" type="checkbox" />
+        <label class="válasz4label válaszlabelök">válasz4</label>
+        <span class="checkmark"></span>
+  </div>
+  
+      </div>
+      <div class="következő hidden">
+        <p>Élet / megválaszolt kérdések: <p class="jóválaszaránya">10 / 0</p> </p>
+        <button id="btn-következő">Következő</button>
+        <h1 class="végepont hidden">Nincs több életed, vége a játéknak!</h1>
+        <h1 class="vége hidden">Nincs több kérdés, vége a játéknak!</h1>
+      </div>
+      <div class="újra hidden">
+        <button id="btn-újra">Újra</button>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/xlsx@0.14.3/dist/xlsx.full.min.js"></script>
+      
+      <script src="script.js"></script>
+    </body>
+  </html>

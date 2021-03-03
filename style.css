@@ -1,0 +1,196 @@
+body {
+  padding-left: 2rem;
+  /* background-image: url(háttér.jpg); */
+  background-color: rgb(5, 5, 5);
+}
+
+p {
+  font-size: 25px;
+  color: white;
+}
+
+.modalleír {
+  color: black;
+}
+
+h1 {
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.vége {
+  color: white;
+}
+
+.végepont {
+  color: white;
+}
+
+.kezdőkép {
+  margin-top: 10px;
+}
+
+.kérdésszöveg {
+  font-size: 25px;
+  color: white;
+}
+
+/* .válaszok {
+  background-color: cadetblue;
+} */
+
+.válaszlabelök {
+  font-size: 30px;
+  color: white;
+}
+
+.válaszcont {
+  padding-bottom: 15px;
+}
+
+input {
+  height: 20px;
+  width: 20px;
+}
+
+.btn {
+  height: 120px;
+  width: 240px;
+  font-size: 30px;
+  background-color: rgba(42, 97, 168, 0.9);
+}
+
+.hidden {
+  display: none;
+}
+
+.show-modal {
+  font-size: 15px;
+  height: 30px;
+  width: 120px;
+  border: none;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgba(97, 190, 30, 0.4);
+  color: whitesmoke;
+  border: none;
+  text-align: center;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.close-modal {
+  position: absolute;
+  margin-bottom: 0%;
+  top: 3rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+#btn-következő {
+  color: whitesmoke;
+  height: 40px;
+  width: 160px;
+  font-size: 30px;
+}
+
+.btn-kezdés {
+  color: whitesmoke;
+  height: 40px;
+  width: 240px;
+  font-size: 30px;
+}
+
+#btn-újra {
+  color: whitesmoke;
+  height: 40px;
+  width: 120px;
+  font-size: 30px;
+}
+
+.kezdő {
+  height: 40px;
+  width: 120px;
+  font-size: 15px;
+}
+
+.haladó {
+  height: 40px;
+  width: 120px;
+  font-size: 15px;
+}
+
+.gomb {
+  color: whitesmoke;
+  background-color: rgba(97, 190, 30, 0.4);
+  height: 40px;
+  width: 240px;
+  font-size: 20px;
+}
+
+.btn-összkérdés {
+  color: whitesmoke;
+  height: 40px;
+  width: 240px;
+  font-size: 30px;
+}
+
+.btn-töri {
+  color: whitesmoke;
+  height: 40px;
+  width: 240px;
+  font-size: 30px;
+}
+
+.btn-földrajz {
+  color: whitesmoke;
+  height: 40px;
+  width: 240px;
+  font-size: 30px;
+}
+
+form {
+  padding-bottom: 10px;
+}
+
+button {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.btn-visszafő {
+  font-size: 25px;
+  height: 30px;
+  width: 120px;
+  border: none;
+  text-align: center;
+}
