@@ -23,7 +23,7 @@ let kérdéskülön;
 
 const reqkérdések = new XMLHttpRequest();
 
-reqkérdések.open("GET", "/Kerdesek.txt");
+reqkérdések.open("GET", "/Kerdesek.txt", true);
 reqkérdések.send();
 
 // document.querySelector(".töri").addEventListener("click", function () {
